@@ -1,0 +1,6 @@
+<form (ngSubmit)="addExercise()">
+  <input type="text" [(ngModel)]="exercise.name" name="name" placeholder="Exercise Name" required>
+  <input type="number" [(ngModel)]="exercise.weight" name="weight" placeholder="Weight" required>
+  <input type="number" [(ngModel)]="exercise.reps" name="reps" placeholder="Reps" required>
+  <button type="submit">Add Exercise</button>
+</form>
